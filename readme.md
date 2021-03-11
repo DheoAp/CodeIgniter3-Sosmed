@@ -1,6 +1,9 @@
 # Aplikasi Sosial Media Sederhana
 
 #### User
+
+---
+
 * User melakukan daftar akun
 * Masukan Nama Lengkap
 * Masukan Username
