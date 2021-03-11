@@ -19,6 +19,9 @@
 * User bisa hapus akun tersebut
 
 #### Admin
+
+---
+
 * Admin isa menghapus akun user
 * Admin bisa menghapus postingan user tertentu
 
