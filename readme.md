@@ -2,7 +2,6 @@
 
 #### User
 
----
 
 * User melakukan daftar akun
 * Masukan Nama Lengkap
@@ -20,7 +19,6 @@
 
 #### Admin
 
----
 
 * Admin isa menghapus akun user
 * Admin bisa menghapus postingan user tertentu
