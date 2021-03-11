@@ -4,7 +4,7 @@
 PERTAMA ubah dulu database password database menjadi 'password' => ''
 
 
-⋅⋅⋅application -> congfig -> database.php
+  application -> congfig -> database.php
 
 
 #### User
