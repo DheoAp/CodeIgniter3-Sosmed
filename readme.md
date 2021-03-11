@@ -20,7 +20,9 @@
 * Admin bisa menghapus postingan user tertentu
 
 [Channel youtube saya](https://www.youtube.com/channel/UCt8ZwXTNS9OaY3ioa8L13dA)
+
 [Linkedin saya](https://www.linkedin.com/in/dheo-apriansyah-b13100174/)
+
 [Situs web saya](http://dheoapriansyah.com/)
 
 
