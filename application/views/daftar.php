@@ -19,7 +19,7 @@
               Form Daftar
             </div>
             <div class="card-body">
-              <form action="<?= base_url('login/daftar');?>" method="POST">
+              <form action="<?= base_url('daftar');?>" method="POST">
                 <div class="form-group">
                   <label for="nama_lengkap">Nama Lengkap</label>
                   <input type="nama_lengkap" name="nama_lengkap" class="form-control" id="nama_lengkap" value="<?= set_value('nama_lengkap');?>" >
@@ -53,11 +53,11 @@
                     </div>
                   </div>
                 </div>
-                <div class="form-group">
-                  <span>Sudah punya akun?</span> <a href="<?= base_url('');?>">Login.</a>
-                </div>
                 <button type="submit" class="btn btn-primary btn-block">Daftar</button>
               </form>
+              <div class="form-group">
+                <span>Sudah punya akun?</span> <a href="<?= base_url('');?>">Login.</a>
+              </div>
             </div>
           </div>          
         </div>

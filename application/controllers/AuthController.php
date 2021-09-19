@@ -2,7 +2,7 @@
   
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Login extends CI_Controller{
+class AuthController extends CI_Controller{
   public function __construct()
   {
     parent::__construct();
@@ -94,7 +94,7 @@ class Login extends CI_Controller{
       ];
       $this->AuthModel->InsertUser($data);
       $this->session->set_flashdata('pesan','berhasil buat akun, silakan login.');
-      redirect('/');
+      redirect('login');
     }
     
   }

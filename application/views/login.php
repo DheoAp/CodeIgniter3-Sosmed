@@ -36,12 +36,12 @@
                   <label for="password">Password</label>
                   <input type="password" name="password" class="form-control" id="password">
                 </div>
-                <div class="form-group">
-                  <span>Belum punya akun?</span> <a href="<?= base_url('login/daftar');?>">Daftar.</a>
-                </div>
                 <button type="submit" class="btn btn-primary btn-block">Login</button>
-                <small class="form-text text-muted text-center mt-3">Mampir ke <a href="https://github.com/DheoAp" target="_blank">Github</a> saya.</small>
               </form>
+              <div class="form-group text-center">
+                <small>Belum punya akun? <a href="<?= base_url('daftar');?>">Daftar.</a></small>
+                <small class="form-text text-muted text-center mt-1">Mampir ke <a href="https://github.com/DheoAp" target="_blank">Github</a> saya.</small>
+              </div>
             </div>
           </div>          
         </div>
