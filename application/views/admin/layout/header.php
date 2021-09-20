@@ -29,7 +29,7 @@
 						<a class="dropdown-item" href="#">Hi, <?= $this->session->userdata('nama_lengkap');?></a>
 						<!-- <a class="dropdown-item" href="#">Activity Log</a> -->
 						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="<?= base_url('admin/home/logout');?>">Logout</a>
+						<a class="dropdown-item" href="<?= base_url('logout');?>">Logout</a>
 					</div>
 				</li>
 			</ul>

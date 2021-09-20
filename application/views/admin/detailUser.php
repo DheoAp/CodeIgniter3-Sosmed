@@ -66,7 +66,7 @@
 									<td><?= date('d-M-y | H:i:s',$user->waktu_posting)?></td>
 									<td>
 										<div class="btn-group d-flex justify-content-center px-3" role="group">
-											<a href="<?= base_url('admin/home/detail/'.$user->id_user);?>" title="Info Akun" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Info</a>
+											<a href="<?= base_url('detail/post/'.$user->id_posting);?>" title="Info Akun" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Info Post</a>
 											<a title="Hapus Postingan" href="<?= base_url('');?>" class="btn btn-danger btn-sm"><i class="fas fa-ban"></i> Hapus</a>
 										</div>
 									</td>

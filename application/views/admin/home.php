@@ -44,7 +44,7 @@
 									
 									<td>
 										<div class="btn-group d-flex justify-content-center px-3" role="group">
-											<a href="<?= base_url('admin/home/detail/'.$user->id_user);?>" title="Info Akun" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Info</a>
+											<a href="<?= base_url('detail/'.$user->id_user);?>" title="Info Akun" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Info</a>
 
 											<a onclick="return confirm('YAKIN MAU HAPUS AKUN?');" href="<?= base_url('admin/home/HapusAkun/'.$user->id_user);?>" title="Info Akun" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Hapus</a>
 										</div>

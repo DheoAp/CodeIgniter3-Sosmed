@@ -2,7 +2,7 @@
   
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller{
+class HomeController extends CI_Controller{
 
   public function __construct()
   {
@@ -44,6 +44,22 @@ class Home extends CI_Controller{
     $this->load->view('admin/layout/header',$data);
     $this->load->view('admin/layout/sidebar');
     $this->load->view('admin/detailUser');
+    $this->load->view('admin/layout/footer');
+  }
+
+  public function detail_post($id_posting)
+  {
+    $data= [
+      // Menampilkan postingan sesuai dengan id user atau session
+      'posting' => $this->db->query("SELECT * FROM posting p,user u 
+      WHERE p.id_user=u.id_user AND p.id_posting='$id_posting'
+      ORDER BY id_posting DESC")->result(),
+      
+      'title' => 'Admin | '. $this->session->userdata('nama_lengkap'),
+    ];
+    $this->load->view('admin/layout/header',$data);
+    $this->load->view('admin/layout/sidebar');
+    $this->load->view('admin/detail_post');
     $this->load->view('admin/layout/footer');
   }
 
