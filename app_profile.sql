@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 11 Mar 2021 pada 05.15
+-- Waktu pembuatan: 20 Sep 2021 pada 04.30
 -- Versi server: 8.0.11
 -- Versi PHP: 7.4.2
 
@@ -40,10 +40,8 @@ CREATE TABLE `posting` (
 --
 
 INSERT INTO `posting` (`id_posting`, `id_user`, `posting`, `waktu_posting`) VALUES
-(23, 4, 'Hallo guys', 1615081144),
-(24, 4, 'hai', 1615081653),
-(26, 15, 'Hallo ini dheo', 1615085991),
-(30, 4, 'hai.. ini sakura', 1615426484);
+(31, 23, 'hallo', 1632095644),
+(32, 24, 'Hai, saya sasuke', 1632095849);
 
 -- --------------------------------------------------------
 
@@ -67,8 +65,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id_user`, `nama_lengkap`, `email`, `username`, `password`, `level`, `profile`) VALUES
 (3, 'Dheo Apriansyah', 'dheo@gmail.com', '', '$2y$10$h.m4bip9D75fzEW3N5u2wuXZ97VYu2IZBTAufZOrORax7RKTpaQqO', 1, ''),
-(4, 'Sakura', 'sakura@gmail.com', 'sakura', '$2y$10$C4e6/8oexMBFgImpbru/wOqzMubDQe/4xBH5pmZD3.XnYshQDuG86', 2, 'sakura-1615087488.png'),
-(15, 'Dheo Apriansyah', 'dheoap@gmail.com', 'dheoAp', '$2y$10$8q3hTtqtmw20OhRMOROt0OIMrb49qf7MTBUM2kRp.84iU5pjIP2Wa', 2, 'dheoAp-1615086856.jpg');
+(23, 'Netta', 'netta@gmail.com', 'netta', '$2y$10$zUCPXAcTfgI/NyrQMR9y9OnzwNuFlkiigXDErXL5LfY9eZONxTC1C', 2, 'profile.jpeg'),
+(24, 'Sasuke', 'sasuke@gmail.com', 'sasuke', '$2y$10$SoXLlLCGneGBphKmiKN0.OHJSZzEB3x8A7fpMGHmflTdjxZ5VX7wW', 2, 'profile.jpeg');
 
 --
 -- Indexes for dumped tables
@@ -95,13 +93,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `posting`
 --
 ALTER TABLE `posting`
-  MODIFY `id_posting` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id_posting` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
